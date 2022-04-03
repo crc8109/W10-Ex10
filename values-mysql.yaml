@@ -1,0 +1,6 @@
+mongodb:
+  uri: "mysql://mysql-service:27017"
+
+serviceMonitor:
+  additionalLabels:
+    release: prometheus
