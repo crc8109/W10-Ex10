@@ -1,6 +1,6 @@
 mongodb:
-  uri: "mysql://mysql-service:27017"
+  uri: "mysql://mysql-service:9104"
 
 serviceMonitor:
   additionalLabels:
-    release: prometheus
+    release: kube-prometheus-stack-1649024792
